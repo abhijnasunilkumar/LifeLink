@@ -1,0 +1,267 @@
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+    color:#333;
+}
+
+/* Navbar */
+
+header{
+    background:#c62828;
+    padding:15px 0;
+}
+
+.navbar{
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    color:white;
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo i{
+    margin-right:8px;
+}
+
+.nav-links{
+    list-style:none;
+    display:flex;
+}
+
+.nav-links li{
+    margin-left:20px;
+}
+
+.nav-links a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+.nav-links a:hover{
+    color:yellow;
+}
+
+/* Hero */
+
+.hero{
+    width:90%;
+    margin:50px auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.hero-text{
+    width:50%;
+}
+
+.hero-text h1{
+    font-size:45px;
+    color:#c62828;
+    margin-bottom:20px;
+}
+
+.hero-text p{
+    font-size:18px;
+    margin-bottom:25px;
+}
+
+.hero-image{
+    width:45%;
+}
+
+.hero-image img{
+    width:100%;
+}
+
+/* Buttons */
+
+.btn{
+    text-decoration:none;
+    background:#c62828;
+    color:white;
+    padding:12px 20px;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.btn:hover{
+    background:#8e0000;
+}
+
+.btn-outline{
+    background:white;
+    color:#c62828;
+    border:2px solid #c62828;
+}
+
+/* Features */
+
+.features{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.features h2{
+    color:#c62828;
+    margin-bottom:30px;
+}
+
+.feature-container{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    width:280px;
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.card i{
+    font-size:40px;
+    color:#c62828;
+    margin-bottom:15px;
+}
+
+/* Blood Groups */
+
+.blood-groups{
+    text-align:center;
+    padding:50px 20px;
+}
+
+.groups{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.groups div{
+    width:60px;
+    height:60px;
+    background:#c62828;
+    color:white;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:bold;
+}
+
+/* Statistics */
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    padding:50px;
+    flex-wrap:wrap;
+}
+
+.stat-box{
+    background:white;
+    width:180px;
+    text-align:center;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px lightgray;
+}
+
+.stat-box h2{
+    color:#c62828;
+}
+
+/* About */
+
+.about-home{
+    text-align:center;
+    padding:50px 20px;
+    background:white;
+}
+
+.about-home h2{
+    color:#c62828;
+    margin-bottom:20px;
+}
+
+/* CTA */
+
+.cta{
+    background:#c62828;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.cta .btn{
+    background:white;
+    color:#c62828;
+}
+
+/* Footer */
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.social-icons{
+    margin:15px 0;
+}
+
+.social-icons a{
+    color:white;
+    margin:10px;
+    font-size:20px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero{
+    flex-direction:column;
+    text-align:center;
+}
+
+.hero-text,
+.hero-image{
+    width:100%;
+}
+
+.feature-container{
+    flex-direction:column;
+    align-items:center;
+}
+
+.navbar{
+    flex-direction:column;
+}
+
+.nav-links{
+    margin-top:15px;
+}
+
+}
